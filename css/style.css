@@ -7,8 +7,8 @@ body {
 }
 
 :root {
-    --main-color: #af973f;
-    --secondary-color: #225127;
+    --main-color: #f58d20;
+    --secondary-color: #fff;
     --title-color: #fff;
     --bold-color: #212529;
     --text-color: #656665;
@@ -19,19 +19,19 @@ a:hover {
 }
 
 .dropdown-item:focus {
-    color: #af973f;
+    color: #f58d20;
     text-decoration: none;
-    background-color: #225127;
+    background-color: #fff;
 }
 
 .dropdown-item:hover {
-    color: #af973f;
+    color: #f58d20;
     text-decoration: none;
-    background-color: #225127;
+    background-color: #fff;
 }
 
 .dropdown-item {
-    color: #225127;
+    color: #fff;
 }
 
 .logo {
@@ -61,7 +61,7 @@ a:hover {
 .normal {
     font-family: 'Lato';
     font-size: 14px;
-    color: #ae9641 !important;
+    color: #f58d20 !important;
     letter-spacing: 2px;
 }
 
@@ -84,7 +84,7 @@ a:hover {
 .l2,
 .l3 {
     font-size: 16px;
-    color: #ae9641 !important;
+    color: #f58d20 !important;
     /* color: var(--title-color); */
     /* opacity: .6; */
     padding-left: 10px;
@@ -92,17 +92,17 @@ a:hover {
 }
 
 .l1:hover {
-    color: #ae9641;
+    color: #f58d20;
     border-bottom: none !important;
 }
 
 .l2:hover {
-    color: #ae9641;
+    color: #f58d20;
     border-bottom: none !important;
 }
 
 .l3:hover {
-    color: #ae9641;
+    color: #f58d20;
     border-bottom: none !important;
 }
 
@@ -181,8 +181,8 @@ a:hover {
 
 .sliderbutton {
     padding: 12px 40px;
-    background-color: #ae9641;
-    color: #225127;
+    background-color: #f58d20;
+    color: #fff;
     font-weight: 600;
     border-radius: 0px;
     text-transform: uppercase;
@@ -194,23 +194,23 @@ a:hover {
 }
 
 .gallleft a:hover {
-    color: #af973f;
-    background-color: #225127;
+    color: #f58d20;
+    background-color: #fff;
 }
 
 .sliderleft a:hover {
-    color: #af973f;
-    background-color: #225127;
+    color: #f58d20;
+    background-color: #fff;
 }
 
 .ableft a:hover {
-    color: #af973f;
-    background-color: #225127;
+    color: #f58d20;
+    background-color: #fff;
 }
 
 .amenleft a:hover {
-    color: #af973f;
-    background-color: #225127;
+    color: #f58d20;
+    background-color: #fff;
 }
 
 .carousel-indicators .active {
@@ -343,8 +343,8 @@ a:hover {
     padding: 12px 20px;
     width: 150px;
     font-weight: 600;
-    background-color: #ae9641;
-    color: #225127;
+    background-color: #f58d20;
+    color: #fff;
     border-radius: 0px;
     text-transform: uppercase;
 }
@@ -493,8 +493,8 @@ a:hover {
 .amenbutton {
     text-align: center;
     /* width: 150px; */
-    background-color: #ae9641;
-    color: #225127;
+    background-color: #f58d20;
+    color: #fff;
     padding: 12px 40px;
     font-weight: 600;
     border-radius: 0px;
@@ -606,13 +606,16 @@ a:hover {
 .gallbutton {
     /* width: 150px; */
     padding: 12px 40px;
-    background-color: #ae9641;
-    color: #225127;
+    background-color: #f58d20;
+    color: #fff;
     border-radius: 0px;
     font-weight: 600;
     text-transform: uppercase;
     margin-top: 50px;
     /* margin-bottom: 125px; */
+}
+.gallbutton:hover{
+    color: #f58d20;
 }
 
 .fimg {
@@ -624,7 +627,7 @@ a:hover {
 }
 
 .greenbg {
-    background-color: #225127;
+    background-color: #fff;
     padding: 20px;
     margin-top: -50px;
 }
@@ -632,7 +635,7 @@ a:hover {
 .greenbgtext {
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
-    color: #af973f;
+    color: #f58d20;
     text-align: center;
     margin-top: 15px;
     letter-spacing: 2px;
@@ -801,7 +804,7 @@ a:hover {
 .containerheading,
 .stepinheading {
     font-family: 'Nunito', sans-serif;
-    color: #ae9641;
+    color: #f58d20;
 }
 
 .containerunderline h1::after {
@@ -921,11 +924,11 @@ a:hover {
     font-weight: 700;
     color: #000;
     margin-top: 25px;
-    color: #af973f !important;
+    color: #f58d20 !important;
 }
 
 .emraldunderline h1::after {
-    border-bottom: 2px solid #af973f;
+    border-bottom: 2px solid #f58d20;
     position: absolute;
     content: '';
     width: 70px;
@@ -937,7 +940,7 @@ a:hover {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
-    color: #af973f;
+    color: #f58d20;
     margin-top: 20px;
     padding: 10px;
 }
@@ -946,7 +949,7 @@ a:hover {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
-    color: #af973f;
+    color: #f58d20;
     font-weight: 400;
     line-height: 25px;
     padding: 10px;
@@ -963,12 +966,12 @@ a:hover {
     font-family: 'Nunito', sans-serif;
     font-size: 35px;
     font-weight: 700;
-    color: #af973f;
+    color: #f58d20;
     margin-top: 25px;
 }
 
 .alexunderline h1::after {
-    border-bottom: 2px solid #af973f;
+    border-bottom: 2px solid #f58d20;
     position: absolute;
     content: '';
     width: 70px;
@@ -977,7 +980,7 @@ a:hover {
 }
 
 .citunderline h1::after {
-    border-bottom: 2px solid #af973f;
+    border-bottom: 2px solid #f58d20;
     position: absolute;
     content: '';
     width: 70px;
@@ -986,7 +989,7 @@ a:hover {
 }
 
 .aqaunderline h1::after {
-    border-bottom: 2px solid #af973f;
+    border-bottom: 2px solid #f58d20;
     position: absolute;
     content: '';
     width: 70px;
@@ -998,7 +1001,7 @@ a:hover {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
-    color: #af973f;
+    color: #f58d20;
     margin-top: 20px;
     padding: 10px;
 }
@@ -1007,7 +1010,7 @@ a:hover {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
-    color: #af973f;
+    color: #f58d20;
     font-weight: 400;
     line-height: 25px;
     padding: 10px;
@@ -1021,12 +1024,12 @@ a:hover {
 .aquaheading {
     font-family: 'Nunito', sans-serif;
     font-size: 40px;
-    color: #af973f;
+    color: #f58d20;
     margin-top: 80px;
 }
 
 .aquaunderline h1::before {
-    border-bottom: 2px solid #af973f;
+    border-bottom: 2px solid #f58d20;
     position: absolute;
     content: '';
     width: 110px;
@@ -1035,7 +1038,7 @@ a:hover {
 }
 
 .aquaunderline h1::after {
-    border-bottom: 2px solid #af973f;
+    border-bottom: 2px solid #f58d20;
     position: absolute;
     content: '';
     width: 110px;
@@ -1056,7 +1059,7 @@ a:hover {
 .points li {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
-    color: #ae9641;
+    color: #f58d20;
     text-align: justify;
     display: block;
     letter-spacing: 2px;
@@ -1083,7 +1086,7 @@ a:hover {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
-    background-color: #225127;
+    background-color: #fff;
     color: #fff;
     padding: 10px;
     text-transform: uppercase;
@@ -1093,8 +1096,8 @@ a:hover {
 }
 
 .pgbutton:hover {
-    background-color: #ae9641;
-    color: #225127;
+    background-color: #f58d20;
+    color: #fff;
 }
 
 .galleryrow1,
@@ -1261,7 +1264,7 @@ a:hover {
 }
 
 .yellow {
-    color: #af973f;
+    color: #f58d20;
 }
 
 .mailunderline h5::before {
@@ -1317,11 +1320,11 @@ a:hover {
 .cntcheading {
     font-family: 'Nunito', sans-serif;
     font-size: 40px;
-    color: #af973f;
+    color: #f58d20;
 }
 
 .ctcyellobg {
-    background-color: #af973f;
+    background-color: #f58d20;
     text-align: justify;
     padding: 15px;
     margin-top: 25px;
@@ -1400,7 +1403,7 @@ a:hover {
 .formbutton {
     width: 125px;
     color: #fff;
-    background-color: #af973f;
+    background-color: #f58d20;
     font-size: 13px;
     font-family: 'Lato', sans-serif;
     letter-spacing: 2px;
@@ -1437,7 +1440,7 @@ a:hover {
 
 .activ,
 .accordion:visited {
-    background-color: #af973f;
+    background-color: #f58d20;
     color: #fff;
     outline: none;
 }
@@ -1451,7 +1454,7 @@ button:focus {
     display: none;
     background-color: #f7f7f9;
     color: #404040;
-    border: 1px solid #af973f;
+    border: 1px solid #f58d20;
     overflow: hidden;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
@@ -1475,7 +1478,7 @@ button:focus {
 }
 
 .diningunderline h5::before {
-    border-bottom: 2px solid #af973f;
+    border-bottom: 2px solid #f58d20;
     position: absolute;
     content: '';
     width: 75px;
@@ -1484,7 +1487,7 @@ button:focus {
 }
 
 .diningunderline h5::after {
-    border-bottom: 2px solid #af973f;
+    border-bottom: 2px solid #f58d20;
     position: absolute;
     content: '';
     width: 75px;
@@ -2134,12 +2137,12 @@ button:focus {
         margin-top: 35px;
     }
     .diningunderline h5::before {
-        border-bottom: 2px solid #af973f;
+        border-bottom: 2px solid #f58d20;
         width: 30px;
         margin: 2px -33px;
     }
     .diningunderline h5::after {
-        border-bottom: 2px solid #af973f;
+        border-bottom: 2px solid #f58d20;
         width: 30px;
         margin: -14px 55px;
     }
