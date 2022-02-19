@@ -194,23 +194,23 @@ a:hover {
 }
 
 .gallleft a:hover {
-    color: #f58d20;
-    background-color: #fff;
+    background-color: #f58d20;
+    color: #fff;
 }
 
 .sliderleft a:hover {
-    color: #f58d20;
-    background-color: #fff;
+    background-color: #f58d20;
+    color: #fff;
 }
 
 .ableft a:hover {
-    color: #f58d20;
-    background-color: #fff;
+    background-color: #f58d20;
+    color: #fff;
 }
 
 .amenleft a:hover {
-    color: #f58d20;
-    background-color: #fff;
+    background-color: #f58d20;
+    color: #fff;
 }
 
 .carousel-indicators .active {
@@ -331,6 +331,7 @@ a:hover {
 
 .abimage {
     padding-top: 100px;
+    margin-top: 35px
 }
 
 .ableft {
@@ -343,8 +344,9 @@ a:hover {
     padding: 12px 20px;
     width: 150px;
     font-weight: 600;
-    background-color: #f58d20;
-    color: #fff;
+ color: #f58d20;
+ background-color: #fff;
+ border-color: #f58d20;
     border-radius: 0px;
     text-transform: uppercase;
 }
@@ -450,6 +452,7 @@ a:hover {
 
 .image2 {
     padding-left: 5px;
+    width: 100px;
 }
 
 .image3 {
@@ -606,17 +609,19 @@ a:hover {
 .gallbutton {
     /* width: 150px; */
     padding: 12px 40px;
-    background-color: #f58d20;
-    color: #fff;
+   color: #f58d20;
+   background-color: #fff;
+   border-color: #f58d20;
     border-radius: 0px;
     font-weight: 600;
     text-transform: uppercase;
     margin-top: 50px;
     /* margin-bottom: 125px; */
 }
-.gallbutton:hover{
-    color: #f58d20;
-}
+/* .gallbutton:hover{
+    color: #fFF;
+    background-color: #f58d20;
+} */
 
 .fimg {
     background-repeat: no-repeat;
