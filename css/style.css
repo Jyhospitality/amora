@@ -3608,3 +3608,88 @@ form .button {
     box-shadow: 0 2px 40px 8px rgb(15 15 15 / 15%);
     padding: 35px;
 }
+
+
+/* Featured Rooms */
+
+.expo {
+    background-color: #fff;
+    color: #000000;
+    min-width: 100%;
+}
+
+.exp-container {
+    /* border-radius: 20px; */
+    /* padding: 30px; */
+    color: #fff;
+}
+
+.exp-padding {
+    padding: 0 40px !important;
+}
+
+.exp-padding1 {
+    padding: 20px 20px !important;
+}
+
+img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.img-container {
+    overflow: hidden;
+    height: 85%;
+}
+
+.img-container img {
+    transition: .3s ease-in
+}
+
+.block:hover .img-container img {
+    transform: scale(1.3);
+}
+
+.welcome {
+    padding: 80px;
+}
+
+.welcome .carousel-item {
+    overflow: hidden;
+    height: auto;
+}
+
+.welcome .carousel-item img {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.block {
+    width: 95%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.block h4 {
+    font-size: 22px;
+    font-weight: 600;
+    height: 15%;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.title1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--secondary-color);
+}
+
+.padding15 {
+    padding: 15px;
+}
