@@ -2,7 +2,7 @@
 html,
 body {
     width: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Trajan Pro', sans-serif !important;
     overflow-x: hidden!important;
 }
 
@@ -59,7 +59,7 @@ a:hover {
 }
 
 .normal {
-    font-family: 'Lato';
+    font-family: 'Trajan Pro';
     font-size: 14px;
     color: #f58d20 !important;
     letter-spacing: 2px;
@@ -111,7 +111,7 @@ a:hover {
     /* height: 40px; */
     position: relative;
     margin: 0 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -160,7 +160,7 @@ a:hover {
 }
 
 .slidertitle {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     max-width: 800px;
     margin: 0 auto;
     font-size: 35px;
@@ -171,7 +171,7 @@ a:hover {
 }
 
 .slidertext {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 15px;
     max-width: 800px;
     letter-spacing: 2px;
@@ -273,7 +273,7 @@ a:hover {
 }
 
 .abheading {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 23px;
     padding-top: 85px;
     margin-bottom: 0;
@@ -281,8 +281,8 @@ a:hover {
 }
 
 .abtitle {
-    font-family: 'Raleway', sans-serif;
-    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Trajan Pro', sans-serif;
+    /* font-family: 'Trajan Pro', sans-serif; */
     font-size: 45px;
     font-weight: 500;
     position: relative;
@@ -320,7 +320,7 @@ a:hover {
 }
 
 .abtext {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 17px;
     font-weight: 500;
     text-align: left;
@@ -340,7 +340,7 @@ a:hover {
 }
 
 .abbutton {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     padding: 12px 20px;
     width: 150px;
     font-weight: 600;
@@ -360,7 +360,7 @@ a:hover {
 }
 
 .amenheading {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     color: #fff;
     padding-top: 50px;
     position: relative;
@@ -510,7 +510,7 @@ a:hover {
 }
 
 .galleryheading {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     margin-top: 50px;
     margin-bottom: 35px;
 }
@@ -580,7 +580,7 @@ a:hover {
     font-size: 24px;
     padding: 20px;
     text-align: left;
-    font-family: 'Raleway';
+    font-family: 'Trajan Pro';
     width: 84% !important;
 }
 
@@ -640,7 +640,7 @@ a:hover {
 }
 
 .greenbgtext {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 18px;
     color: #f58d20;
     text-align: center;
@@ -649,7 +649,7 @@ a:hover {
 }
 
 .conheading {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 20px;
     color: #fff;
     padding-top: 50px;
@@ -676,7 +676,7 @@ a:hover {
 }
 
 .context {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 16px;
     color: #656665;
     padding-top: 50px;
@@ -736,7 +736,7 @@ a:hover {
 }
 
 .sitetext a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 16px;
     color: #656665 !important;
     letter-spacing: 2px;
@@ -789,7 +789,7 @@ a:hover {
 }
 
 .aboutheading {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 50px;
     color: #fff;
     padding-top: 10%;
@@ -797,7 +797,7 @@ a:hover {
 }
 
 .abouttext {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 16px;
     color: #fff;
     letter-spacing: 2px;
@@ -810,7 +810,7 @@ a:hover {
 
 .containerheading,
 .stepinheading {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     color: #f58d20;
 }
 
@@ -825,7 +825,7 @@ a:hover {
 
 .containertext,
 .stepintext {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 15px;
     letter-spacing: 1px;
     font-weight: 300;
@@ -896,7 +896,7 @@ a:hover {
 }
 
 .footertext1 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 14px;
     color: #656665 !important;
     padding: 5px;
@@ -926,7 +926,7 @@ a:hover {
 }
 
 .emraldheading {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 35px;
     font-weight: 700;
     color: #000;
@@ -944,7 +944,7 @@ a:hover {
 }
 
 .emraldtext {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
     color: #fff;
@@ -953,7 +953,7 @@ a:hover {
 }
 
 .emraldtext1 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
     color: #ffff;
@@ -970,7 +970,7 @@ a:hover {
 }
 
 .alexheading {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 35px;
     font-weight: 700;
     color: #fff;
@@ -1005,7 +1005,7 @@ a:hover {
 }
 
 .alextext {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
     color: #fff;
@@ -1014,7 +1014,7 @@ a:hover {
 }
 
 .alextext1 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
     color: #fff;
@@ -1029,7 +1029,7 @@ a:hover {
 }
 
 .aquaheading {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 40px;
     color: #f58d20;
     margin-top: 80px;
@@ -1054,7 +1054,7 @@ a:hover {
 }
 
 .ulheading {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 18px;
     color: #fff;
     text-align: justify;
@@ -1064,7 +1064,7 @@ a:hover {
 }
 
 .points li {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 18px;
     color: #f58d20;
     text-align: justify;
@@ -1090,7 +1090,7 @@ a:hover {
 
 .pgbutton {
     width: 175px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
     background-color: #fff;
@@ -1231,7 +1231,7 @@ a:hover {
 }
 
 .addheading {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 22px;
     padding-top: 55px;
     font-weight: 600;
@@ -1261,7 +1261,7 @@ a:hover {
 }
 
 .addtext {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 15px;
     color: #404040;
     letter-spacing: 2px;
@@ -1293,7 +1293,7 @@ a:hover {
 }
 
 .mailtext {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 15px;
     color: #404040;
     letter-spacing: 1px;
@@ -1325,7 +1325,7 @@ a:hover {
 }
 
 .cntcheading {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 40px;
     color: #f58d20;
 }
@@ -1338,7 +1338,7 @@ a:hover {
 }
 
 .ctcyellotext {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 20px;
     padding-left: 10px;
     color: #fff;
@@ -1358,7 +1358,7 @@ a:hover {
 }
 
 .directiontext {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 15px;
     color: #404040;
     letter-spacing: 2px;
@@ -1375,7 +1375,7 @@ a:hover {
 }
 
 .formheading {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 40px;
     text-align: justify;
     padding-top: 35px;
@@ -1412,7 +1412,7 @@ a:hover {
     color: #fff;
     background-color: #f58d20;
     font-size: 13px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     letter-spacing: 2px;
     border-radius: 0px;
     padding: 10px;
@@ -1441,7 +1441,7 @@ a:hover {
     text-align: left;
     outline: none;
     font-size: 15px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     transition: 0.4s;
 }
 
@@ -1463,7 +1463,7 @@ button:focus {
     color: #404040;
     border: 1px solid #f58d20;
     overflow: hidden;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 15px;
     letter-spacing: 2px;
     line-height: 20px;
@@ -1474,7 +1474,7 @@ button:focus {
 }
 
 .diningheading {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 16px;
     color: #fff;
     background-color: var(--main-color);
@@ -1503,7 +1503,7 @@ button:focus {
 }
 
 .diningtext {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 15px;
     text-align: center;
     color: #000;
@@ -1528,7 +1528,7 @@ button:focus {
 }
 
 .mealheading {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 18px;
     color: #000;
     font-weight: 600;
@@ -1842,7 +1842,7 @@ button:focus {
     }
     .thingssubtext {
         font-size: 15px;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Trajan Pro', sans-serif;
         padding-top: 5px;
         letter-spacing: 1px;
     }
@@ -2579,7 +2579,7 @@ ul.sitelinks li {
 }
 
 .foottext a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
     font-size: 15px;
     letter-spacing: 2px;
     color: #656665;
@@ -2777,8 +2777,8 @@ ul.sitelinks li {
     font-size: 43px;
     color: var(--bold-color);
     font-weight: 600;
-    /* font-family: 'Open Sans', sans-serif!important; */
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Trajan Pro', sans-serif!important; */
+    font-family: 'Trajan Pro', sans-serif;
     letter-spacing: 1px;
 }
 
@@ -2788,7 +2788,7 @@ ul.sitelinks li {
     text-transform: uppercase;
     color: var(--secondary-color)!important;
     font-weight: 700!important;
-    font-family: 'Open Sans', sans-serif!important;
+    font-family: 'Trajan Pro', sans-serif!important;
     margin-bottom: 0px;
 }
 
@@ -2803,7 +2803,7 @@ ul.sitelinks li {
     padding-bottom: 50px;
     letter-spacing: -.5px;
     opacity: .7;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Trajan Pro', sans-serif;
 }
 
 .button-1 {
@@ -2955,7 +2955,7 @@ ul.sitelinks li {
 }
 
 .things .title {
-    font-family: 'Raleway', sans-serif!important;
+    font-family: 'Trajan Pro', sans-serif!important;
     font-size: 45px;
     position: relative;
     padding-bottom: 10px;
@@ -3024,7 +3024,7 @@ ul.sitelinks li {
 .testimonial .testimonial-say {
     padding-top: 20px;
     margin: 0;
-    font-family: 'Open Sans', sans-serif!important;
+    font-family: 'Trajan Pro', sans-serif!important;
 }
 
 .testimonial .para {
@@ -3083,7 +3083,7 @@ ul.sitelinks li {
 /* *****   Testimonial end   ********* */
 
 
-/* ******************  ner start      ********************* */
+/* ******************     Banner start      ********************* */
 
 .aboutbgimg {
     background-size: cover;
@@ -3103,7 +3103,7 @@ ul.sitelinks li {
     text-align: center;
     font-size: 26px;
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif!important;
+    font-family: 'Trajan Pro', sans-serif!important;
 }
 
 .map-container {
@@ -4350,4 +4350,59 @@ li {
 .right_bg_top:after {
     left: 1px;
     right: auto;
+}
+
+
+/* social icons */
+
+.social-float {
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    transform: translatey(-50%);
+    background: var(--main-color);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 1111;
+    overflow: hidden;
+}
+
+.social-float-flex a:nth-child(1) {
+    background: #25D366;
+}
+
+.social-float-flex a {
+    display: flex;
+    padding: 7px 10px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.social-float-flex a:nth-child(2) {
+    background: #e4405f;
+}
+
+.social-float-flex a {
+    padding: 7px 10px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.social-float-flex a:nth-child(3) {
+    background: #3b5999;
+}
+
+.social-float-flex a {
+    padding: 7px 10px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.social-float-flex a:last-child {
+    border: none;
+}
+
+.social-float-flex a:nth-child(4) {
+    background: #00c300;
+    font-size: 20px;
 }
