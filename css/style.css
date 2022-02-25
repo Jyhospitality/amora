@@ -3083,7 +3083,7 @@ ul.sitelinks li {
 /* *****   Testimonial end   ********* */
 
 
-/* ******************     Banner start      ********************* */
+/* ******************  ner start      ********************* */
 
 .aboutbgimg {
     background-size: cover;
@@ -4161,6 +4161,7 @@ li {
     font-family: 'Trajan Pro';
     /* background-color: #fd7e14;
     color: #fff; */
+    font-size: 25px;
     padding: 5px;
 }
 
