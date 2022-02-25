@@ -4030,6 +4030,36 @@ img {
         transform: inherit;
         -webkit-transform: inherit;
     }
+    .book_now_btn.stay_booknow {
+        margin: 9px auto;
+        display: table;
+    }
+}
+
+.book_now_btn:focus {
+    color: #a4843e;
+}
+
+.book_now_btn {
+    background: #0c2046;
+    font-size: 14px;
+    margin-top: 11px;
+    color: #a4843e;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 6px 0;
+    min-width: 160px;
+    text-align: center;
+    display: inline-block;
+}
+
+.book_now_btn:hover {
+    color: #fff;
+}
+
+.stay_booknow {
+    padding: 13px 0;
+    color: #fff;
 }
 
 .bottom_align {
