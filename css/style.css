@@ -51,7 +51,7 @@ a:hover {
 }
 
 .texture {
-    /* background-image: url('../images/texture.jpg'); */
+    /* background-image: url('img/texture.jpg'); */
     /* background: #403f3f; */
     background: #fafaf6;
     position: relative;
@@ -326,7 +326,7 @@ a:hover {
     text-align: left;
     margin-top: 35px;
     padding: 0 12px;
-    color: #656665;
+    /* color: #656665; */
 }
 
 .abimage {
@@ -2192,6 +2192,10 @@ button:focus {
     .container {
         max-width: 768px;
     }
+    .stay_heading p {
+        font-size: 14px;
+        line-height: 28px;
+    }
     .normal {
         margin-left: 15px;
     }
@@ -2568,7 +2572,7 @@ button:focus {
 }
 
 ul.sitelinks li {
-    list-style-image: url(../images/arrow.png) !important;
+    list-style-image: url(img/arrow.png) !important;
     width: 175px;
     text-align: left;
     padding-left: 7px;
@@ -2664,6 +2668,10 @@ ul.sitelinks li {
 @media only screen and (min-width: 320px) and (max-width: 576px) {
     .foodpad {
         padding: 25px 75px !important;
+    }
+    .stay_heading p {
+        font-size: 14px;
+        line-height: 28px;
     }
     .facility_list li {
         float: left;
@@ -3726,7 +3734,7 @@ img {
 
 .dine_heading_box h2 {
     font-size: 35px;
-    background: url('../images/inner_heading_bg_img.png') no-repeat bottom center;
+    background: url('img/inner_heading_bg_img.png') no-repeat bottom center;
     color: #a4843e;
     font-family: 'Trajan Pro';
     padding-bottom: 37px;
@@ -3902,6 +3910,10 @@ img {
     .effect_inner {
         height: 302px;
     }
+    .stay_heading p {
+        font-size: 14px;
+        line-height: 28px;
+    }
     .promotion_section .capacity-box li {
         width: 100%;
         border: none;
@@ -4012,9 +4024,24 @@ img {
     height: 500px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .bottom_align {
+        top: inherit;
+        transform: inherit;
+        -webkit-transform: inherit;
+    }
+}
+
 .bottom_align {
     position: relative;
     top: 73%;
+    transform: translate(0, -73%);
+    -webkit-transform: translate(0, -73%);
+}
+
+.bottom_align2 {
+    position: relative;
+    top: 83%;
     transform: translate(0, -73%);
     -webkit-transform: translate(0, -73%);
 }
@@ -4097,4 +4124,198 @@ li {
     width: 100%;
     max-width: 600px;
     height: 350px;
+}
+
+.ban-heading {
+    font-family: 'Trajan Pro';
+    /* background-color: #fd7e14;
+    color: #fff; */
+    padding: 5px;
+}
+
+.dine_heading_box h2 {
+    font-size: 35px;
+    background: url('../img/inner_heading_bg_img.png') no-repeat bottom center;
+    color: #a4843e;
+    font-family: 'Trajan Pro';
+    padding-bottom: 37px;
+    margin-bottom: 30px;
+}
+
+.main_heading h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    background: url('../img/inner_heading_bg_img.png') no-repeat bottom center;
+    color: #a4843e;
+    font-family: 'Trajan Pro';
+    padding-bottom: 37px;
+    margin-bottom: 30px;
+}
+
+.stay_heading p {
+    font-size: 15px;
+    margin: 0;
+    line-height: 24px;
+    background: url('../img/inner_heading_small_bg.png') no-repeat bottom center;
+    padding-bottom: 38px;
+    color: #000;
+}
+
+.left_bg:before {
+    right: auto;
+    left: 1px;
+    background: url('../img/left_flowerbg_top.png') no-repeat;
+}
+
+.left_bg:after {
+    right: auto;
+    left: 1px;
+    background: url('../img/left_flowerbg_bottom.png') no-repeat;
+}
+
+.right_flowerbg:after {
+    background: url('../img/flower_bg3.png') no-repeat;
+    position: absolute;
+    right: 1px;
+    bottom: 3px;
+    content: "";
+    left: auto;
+}
+
+.right_top_bg:before {
+    width: 205px;
+    height: 207px;
+    background: url('../img/flower_bg2.png') no-repeat;
+    position: absolute;
+    right: 1px;
+    top: 3px;
+    content: "";
+}
+
+.left_bottom_bg:after {
+    width: 205px;
+    height: 207px;
+    left: 1px;
+    bottom: 3px;
+    background: url('../img/left_flowerbg_bottom.png') no-repeat;
+    content: "";
+    position: absolute;
+}
+
+.small_bg:before {
+    background-size: 150px;
+}
+
+.small_bg:after {
+    bottom: -50px;
+    background-size: 150px;
+}
+
+.bg_stay:before {
+    width: 341px;
+    height: 344px;
+    background: url('../img/flower_bg1.png') no-repeat;
+    position: absolute;
+    left: 5px;
+    top: -7px;
+    content: "";
+}
+
+.flower_bg {
+    position: relative;
+}
+
+.flower_bg:before {
+    width: 205px;
+    height: 207px;
+    background: url('../img/flower_bg2.png') no-repeat;
+    position: absolute;
+    right: 1px;
+    top: 3px;
+    content: "";
+}
+
+.flower_bg:after {
+    width: 205px;
+    height: 207px;
+    background: url('../img/flower_bg3.png') no-repeat;
+    position: absolute;
+    right: 1px;
+    bottom: 3px;
+    content: "";
+}
+
+.left_bg:before {
+    right: auto;
+    left: 1px;
+    background: url('../img/left_flowerbg_top.png') no-repeat;
+}
+
+.left_bg:after {
+    right: auto;
+    left: 1px;
+    background: url('../img/left_flowerbg_bottom.png') no-repeat;
+}
+
+.right_flowerbg:after {
+    background: url('../img/flower_bg3.png') no-repeat;
+    position: absolute;
+    right: 1px;
+    bottom: 3px;
+    content: "";
+    left: auto;
+}
+
+.right_top_bg:before {
+    width: 205px;
+    height: 207px;
+    background: url('../img/flower_bg2.png') no-repeat;
+    position: absolute;
+    right: 1px;
+    top: 3px;
+    content: "";
+}
+
+.left_bottom_bg:after {
+    width: 205px;
+    height: 207px;
+    left: 1px;
+    bottom: 3px;
+    background: url('../img/left_flowerbg_bottom.png') no-repeat;
+    content: "";
+    position: absolute;
+}
+
+.small_bg:before {
+    background-size: 150px;
+}
+
+.small_bg:after {
+    bottom: -50px;
+    background-size: 150px;
+}
+
+.dine_align_inner.flower_bg.left_bg.right_flowerbg:before {
+    width: 163px;
+    height: 164px;
+    background: url('../img/small_left_bg.png') no-repeat;
+}
+
+.dine_align_inner.flower_bg.left_bg.right_flowerbg:after {
+    width: 163px;
+    height: 164px;
+    background: url('../img/small_right_bg.png') no-repeat;
+}
+
+.right_bg_bottom:after {
+    display: none;
+}
+
+.right_bg_top:before {
+    display: none;
+}
+
+.right_bg_top:after {
+    left: 1px;
+    right: auto;
 }
