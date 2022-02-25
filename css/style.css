@@ -43,7 +43,7 @@ a:hover {
 
 .navbar {
     top: 0px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -2665,6 +2665,12 @@ ul.sitelinks li {
     .foodpad {
         padding: 25px 75px !important;
     }
+    .facility_list li {
+        float: left;
+        width: 50%;
+        line-height: normal;
+        margin-bottom: 19px;
+    }
     .text {
         /* padding: 0px 15px !important; */
         text-align: center;
@@ -4028,4 +4034,35 @@ li {
 
 .facility_list li:last-child {
     border: none;
+}
+
+
+/* events */
+
+.about {
+    padding: 50px 0;
+}
+
+.section-container {
+    padding: 80px 0;
+}
+
+.about .section-flex {
+    height: auto;
+}
+
+.about .content {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid #f58d20;
+}
+
+.about .section-flex .para {
+    margin: 0;
+    font-size: 17px;
+    max-width: 100%;
 }
