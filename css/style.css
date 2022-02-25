@@ -3441,13 +3441,32 @@ form .button {
 #mybtn {
     /* display:none; */
     position: fixed;
-    bottom: 40px;
-    right: 50px;
+    bottom: 30px;
+    right: 10px;
     padding: 15px 13px;
     width: 55px;
     height: 55px;
     border-radius: 999px;
     background: #25d366;
+    z-index: 999;
+    font-size: 27px;
+    z-index: 999;
+    border: none;
+    color: #fff;
+    transition: .3s;
+    animation: shadow 1s linear infinite;
+}
+
+#mybtn2 {
+    /* display: none; */
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    padding: 15px 13px;
+    width: 55px;
+    height: 55px;
+    border-radius: 999px;
+    background: #f58d20;
     z-index: 999;
     font-size: 27px;
     z-index: 999;
