@@ -4406,3 +4406,17 @@ li {
     background: #00c300;
     font-size: 20px;
 }
+
+.about-para {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px!important;
+    color: var(--bold-color);
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 50px;
+    letter-spacing: -.5px;
+    opacity: .7;
+    font-family: 'Trajan Pro';
+}
