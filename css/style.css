@@ -4420,3 +4420,141 @@ li {
     opacity: .7;
     font-family: 'Trajan Pro';
 }
+
+/* suites & rooms */
+.suites-rooms {
+    background-image: url(../img/df.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+}
+
+.separator-md {
+    padding: 15px 0;
+}
+
+.rooms-h1 {
+    color: #fff;
+}
+
+.rooms-header {
+    background-color: #8f9193;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.rooms-h6 {
+    line-height: 0.5;
+    text-align: center;
+    color: #fff;
+}
+
+.rooms-h6 span {
+    display: inline-block;
+    position: relative;
+}
+
+.box,
+.controls-hidden {
+    display: none;
+}
+
+.rooms-h6 span:after,
+.rooms-h6 span:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 3px solid #fff;
+    top: 0;
+    width: 80px;
+}
+
+.rooms-h6 span:before {
+    right: 100%;
+    margin-right: 10px;
+}
+
+.rooms-h6 span:after {
+    left: 100%;
+    margin-left: 10px;
+}
+
+.rooms-footer {
+    color: #8f9193;
+}
+
+.book-now-btn {
+    background-color: #8f9193;
+    color: #fff !important;
+    border-radius: 0;
+    border: none;
+}
+
+.book-now-btn:hover,
+.book-now-btn:not(:disabled):not(.disabled):active {
+    color: #fff;
+    background-color: #a4a9ad;
+    border-color: #a4a9ad;
+}
+
+.guests,
+.small-guests,
+.text-center.rooms-p {
+    color: #8f9193;
+}
+
+.guests {
+    font-size: 25px;
+}
+
+.small-guests {
+    font-size: 20px;
+}
+
+.rooms-footer p {
+    margin-bottom: 0;
+}
+
+.guests-p {
+    margin-top: -10px;
+}
+
+.rooms-inner-h1 {
+    color: #8f9193;
+}
+
+.banquets-h2,
+.banquets-h3 {
+    font-family: "Open Sans", sans-serif;
+}
+
+.exec-thm1 {
+    background: #000;
+}
+
+.rooms-btn:hover,
+.rooms-btn:not(:disabled):not(.disabled):active {
+    color: #fff;
+    background-color: #a4a9ad;
+    border-color: #a4a9ad;
+}
+
+.rooms-btn {
+    background-color: #8f9193;
+    color: #fff !important;
+    border-radius: 0;
+    border: none;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.sr-h1 {
+    font-size: 3em;
+    color: #fff;
+  }
+  .sr-h5 {
+    color: #fff;
+  }
+  .caption-h2 {
+    color: #ffd6b5;
+  }
