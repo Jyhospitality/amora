@@ -29,7 +29,8 @@
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet"> -->
 
 
-    <link rel="stylesheet" href="stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
     <link href="css/style.css" rel="stylesheet">
     <link href="css/carousel.less" rel="stylesheet">
@@ -39,7 +40,7 @@
         .dropdown:hover .dropdown-menu {
             display: block;
         }
-        
+
         .nav-pills .nav-link.active,
         .nav-pills .show>.nav-link {
             color: #225127;
@@ -47,16 +48,16 @@
             text-decoration: none;
             display: none;
         }
-        
+
         .nav {
             /* padding-left: 18rem; */
             justify-content: center;
         }
-        
+
         .my-4 li a {
             font-family: 'Trajan Pro';
             font-size: 16px;
-            padding: 12px 0px!important;
+            padding: 12px 0px !important;
             color: #af973f;
             background-color: #225127;
             text-transform: uppercase;
@@ -65,15 +66,15 @@
             border-radius: 0px;
             font-weight: 600;
         }
-        
+
         .my-4 li a:hover::after {
             width: 0;
         }
-        
+
         .my-4 li {
             padding: 15px;
         }
-        
+
         .my-4 li a:hover {
             text-decoration: none !important;
             color: #225127;
@@ -96,8 +97,8 @@
                     <img src="img/logo2-trans.png" class="img-fluid logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-  <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
-  </button>
+                    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto" style="    margin-top: 15px;">
                         <li class="nav-item active">
@@ -132,664 +133,254 @@
         </nav>
     </div>
 
+    <div id="wrapper">
 
-    <!--aboutus-->
-    <div class="container-fluid text-center">
-        <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12 aboutbgimg" style="background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url('img/Banquet-Hall-Images/Paramapara\ Hall\ 4.jpg')">
-                <h1 class="aboutheading">BANQUETS</h1>
+        <div class="page-content-wrapper">
+            <section class="banquets">
+                <script src="jquery-1.12.4.min.js"></script>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $("select").change(function () {
+                            $(this).find("option:selected").each(function () {
+                                var optionValue = $(this).attr("value");
+                                if (optionValue) {
+                                    $(".pax").not("." + optionValue).hide();
+                                    $("." + optionValue).show();
+                                } else {
+                                    $(".pax").show();
+                                }
+                            });
+                        }).change();
+                    });
+                </script>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $(".btn1").click(function () {
+                            //this is change select value 1
+                            $('#dynamicChange').val('').trigger('change');
+                        });
+
+                    });
+                </script>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <h1 class="text-center sr-h1">Celebrations &amp; Events</h1>
+                            <h2 class="text-center caption-h2">Plan the event of your dreams</h2>
+                        </div>
+                    </div>
+
+                    <!-- <div class="row align-items-center">
+                <div class="col" style="background-color: rgba(0,0,0,0.58);padding: 0 30px;">
+                    <p class="text-justify" style="color: rgb(255,255,255);font-size: 20px;"><br>The perfect event in our spacious banquet equipped with the latest state of the art
+                        facilities and having excellent warm hospitality, we ensure you have memorable
+                        celebrations.<br></p>
+                </div>
+            </div> -->
+                </div>
+            </section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 co-md-12 col-sm-12 col-xs-12 wow fadeInUp" data-wow-duration="1.2s"
+                        data-wow-delay=".5s">
+                        <div class="dine_heading_box main_heading" style="    font-family: 'Trajan Pro';">
+                            <h1 style="color: #f58d20;">PLAN YOUR<br>
+                                <span style="color: #000;">MEMORABLE EVENTS</span>
+                            </h1>
+                            <p style="font-size: 16px;">The perfect event in our spacious banquet equipped with the
+                                latest state of the art<br> facilities and having excellent warm hospitality, we ensure
+                                you have memorable<br> celebrations.
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-
-    <!--Gallery Buttons-->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 co-md-12 col-sm-12 col-xs-12 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".5s">
-                <div class="dine_heading_box main_heading" style="    font-family: 'Trajan Pro';">
-                    <h1 style="color: #f58d20;">PLAN YOUR<br>
-                        <span style="color: #000;">MEMORABLE EVENTS</span>
-                    </h1>
-                    <p style="font-size: 16px;">The perfect event in our spacious banquet equipped with the latest state of the art<br> facilities and having excellent warm hospitality, we ensure you have memorable<br> celebrations.
-                    </p>
+            <section id="all-banquets" class="inner-page">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-md-5 5pax pax" target="parampara.html">
+                            <a href="parampara.html">
+                                <div class="rooms-header">
+                                    <!-- <h3 class="text-center banquets-h3">Business Meetings &amp;<br></h3> -->
+                                    <h2 class="text-center banquets-h2"><strong>Paramapara Hall </strong><br></h2>
+                                </div><img class="img-fluid"
+                                    src="img/Banquet-Hall-Images/Parampara Hall 7.jpg" style="    height: 300px;">
+                                <div class="separator"></div>
+                            </a>
+                            <div
+                                class="row no-gutters justify-content-center align-items-center banquets-footer text-center">
+                                <div class="col-md-6"><a href="#"><i class="fa fa-user fa-2x" style="margin-left:10px" aria-hidden="true"></i><i class="fa fa-user fa-2x" style="margin-left:10px" aria-hidden="true"></i><i class="fa fa-user fa-2x" style="margin-left:10px" aria-hidden="true"></i></a></div>
+                                <div class="col-md-6">
+                                    <a href="#">
+                                        <h4><strong>3,000 </strong><span><strong>&nbsp;sq. ft.</strong><br></span></h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="separator-lg"></div>
+                        </div>
+                        <div class="col-md-5 15pax pax" target="sanskara.html">
+                            <a href="sanskara.html">
+                                <div class="rooms-header">
+                                    <!-- <h3 class="text-center banquets-h3">For Small</h3> -->
+                                    <h2 class="text-center banquets-h2"><strong>Sanskara Hall </strong></h2>
+                                </div><img class="img-fluid"
+                                    src="img/Banquet-Hall-Images/Sanskara Hall 1.jpg">
+                                <div class="separator"></div>
+                            </a>
+                            <div
+                                class="row no-gutters justify-content-center align-items-center banquets-footer text-center">
+                                <div class="col-md-6"><a href="sanskara.html"><i class="fa fa-user fa-2x" style="margin-left:10px" aria-hidden="true"></i><i class="fa fa-user fa-2x" style="margin-left:10px" aria-hidden="true"></i><i class="fa fa-user fa-2x" style="margin-left:10px" aria-hidden="true"></i></a></div>
+                                <div class="col-md-6">
+                                    <a href="sanskara.html">
+                                        <h4><strong>1,500 </strong><span><strong>&nbsp;sq. ft.</strong><br></span></h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="separator-lg"></div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="col-md-5 100pax pax"><a href="shayari.html">Link<div class="rooms-header">
+                                    <!-- <h3 class="text-center banquets-h3">For Medium</h3> -->
+                                    <h2 class="text-center banquets-h2"><strong>Shayari </strong></h2>
+                                </div><img class="img-fluid" src="img/Restaurant-SHAYARI-Images/Shayari 2.jpeg">
+                                <div class="separator"></div>
+                            </a>
+                            <div
+                                class="row no-gutters justify-content-center align-items-center banquets-footer text-center">
+                                <div class="col-md-6"><i class="fa fa-user fa-2x" style="margin-left:10px" aria-hidden="true"></i><i class="fa fa-user fa-2x" style="margin-left:10px" aria-hidden="true"></i><i class="fa fa-user fa-2x" style="margin-left:10px" aria-hidden="true"></i></div>
+                                <div class="col-md-6">
+                                    <h4><strong>200 </strong><span><strong>&nbsp;sq. ft.</strong><br></span></h4>
+                                </div>
+                            </div>
+                            <div class="separator-lg"></div>
+                        </div>
+                      
+                    </div>
                 </div>
 
-
-            </div>
+            </section>
         </div>
-    </div>
+
+        <!-- *********************   Map location start  **************************** -->
+
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14890.176948165701!2d80.9940809!3d21.0908579!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2aee515b224851aa!2sHotel%20Amora!5e0!3m2!1sen!2sin!4v1645268651769!5m2!1sen!2sin"
+                class="map" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
 
 
 
-    <section class="stay_section">
-        <div class="container-fluid">
+        <!-- *************************  Footer start  **************************** -->
+
+        <footer>
             <div class="row">
-                <div class="col-lg-6 co-md-6 col-sm-12 col-xs-12 no-padding">
-                    <div class="stay_left_box">
-                        <div class="stay_heading stay_space wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".5s">
-                            <h2 class="ban-heading">Paramapara Hall 3,000 sq. ft.</h2>
-                            <p>
+                <div class="col-lg-4 col-md-6 col-12 footer-start">
+                    <img src="img/logo2-trans.png" class="footer-logo" alt="logo">
+                    <p class="para">Amora comes to you from experiences deep within our hearts – And it’s all for you,
+                        the way you like it. </p>
 
-                            </p>
-                        </div>
-                        <div class="container-fluid">
-
-                            <div id="demo" class="carousel slide" data-ride="carousel" loop="" data-interval="4000">
-
-                                <!-- Indicators -->
-                                <ul class="carousel-indicators">
-                                    <li data-target="#demo" data-slide-to="0" class="active"></li>
-                                    <li data-target="#demo" data-slide-to="1" class=""></li>
-                                    <li data-target="#demo" data-slide-to="2" class=""></li>
-                                    <li data-target="#demo" data-slide-to="3" class=""></li>
-                                    <li data-target="#demo" data-slide-to="4" class=""></li>
-                                </ul>
-
-                                <!-- The slideshow -->
-                                <div class="row">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item">
-                                            <div class="col-md-12 col-xs-12 myImage" style="background-image: linear-gradient(rgba(0,0,0,.01),rgba(0,0,0,.7)),url('img/Banquet-Hall-Images/;4.jpg');">
-
-                                                <div class="col-md-12 col-xs-12 carousel-content">
-
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="carousel-item">
-                                            <div class="col-md-12 col-xs-12 myImage" style="background-image: url(img/Banquet-Hall-Images/5.jpg);">
-
-                                            </div>
-
-                                        </div>
-
-                                        <div class="carousel-item active">
-                                            <div class="col-md-12 col-xs-12 myImage" style="background-image: url(img/Banquet-Hall-Images/6.jpg);">
-
-                                            </div>
-
-                                        </div>
-
-                                        <div class="carousel-item">
-                                            <div class="col-md-12 col-xs-12 myImage" style="background-image: url(img/Banquet-Hall-Images/7.jpg);"></div>
-                                        </div>
-
-                                        <div class="carousel-item">
-                                            <div class="col-md-12 col-xs-12 myImage" style="background-image: url(img/Banquet-Hall-Images/8.jpg);"></div>
-                                        </div>
-
-
-                                        <!-- Left and right controls -->
-                                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                                            <span class="carousel-control"><img src="images/ar2.png" class="img-fluid"></span>
-                                        </a>
-                                        <a class="carousel-control-next" href="#demo" data-slide="next">
-                                            <span class="carousel-control"><img src="images/ar1.png" class="img-fluid"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="room_img_slider">
-
-                            <div id="myCarousel_slider1" class="carousel slide" data-ride="carousel">
-
-                                <ol class="carousel-indicators">
-                                    <li data-target="#myCarousel_slider1" data-slide-to="0" class="active"></li>
-                                    <li data-target="#myCarousel_slider1" data-slide-to="1" class="active"></li>
-                                    <li data-target="#myCarousel_slider1" data-slide-to="2" class="active"></li>
-                                    <li data-target="#myCarousel_slider1" data-slide-to="3" class="active"></li>
-                                    <li data-target="#myCarousel_slider1" data-slide-to="4" class="active"></li>
-
-
-                                </ol>
-
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="item active">
-                                        <div class="effect_inner room_inner_effect wow beffect" data-wow-delay=".5s" data-wow-duration="1s">
-                                            <img src="img/Banquet-Hall-Images/'3.jpg" />
-                                        </div>
-                                    </div>
-
-                                    <div class="item">
-                                        <img src="img/Banquet-Hall-Images/;4.jpg" />
-
-                                    </div>
-
-                                    <div class="item">
-                                        <img src="img/Banquet-Hall-Images/5.jpg" />
-
-                                    </div>
-
-                                    <div class="item">
-                                        <img src="img/Banquet-Hall-Images/6.jpg" />
-
-                                    </div>
-
-                                    <div class="item">
-                                        <img src="img/Banquet-Hall-Images/7.jpg" />
-
-                                    </div>
-
-
-
-                                </div>
-
-
-                            </div>
-
-                        </div> -->
-                    </div>
+                    <!-- </div> -->
                 </div>
-
-                <div class="col-lg-6 co-md-6 col-sm-12 col-xs-12 no-padding">
-                    <div class="stay_right_box flower_bg left_bg right_flowerbg">
-                        <div class="bottom_align">
-                            <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".5s" style="font-size: 16px;"> For your weddings or any other private happenings. Featuring an area of 3000 sqft this spacious hall can easily accommodate up to 250 guests, a perfect event.
-                            </p>
-
-                            <ul class="facility_list clearfix">
-                                <li><img src="img/icons/01.png" /><span>AC</span></li>
-                                <li><img src="img/icons/02.png" /><span>PARKING</span></li>
-                                <li><img src="img/icons/stage01.png" /><span>STAGE</span></li>
-                                <li><img src="img/icons/wifi01.png" /><span>WIFI</span></li>
-                                <!-- <li><img src="img/icons/03.png" /><span>ROOMS</span></li> -->
-                            </ul>
-                            <div class="capacity-box clearfix">
-                                <ul>
-                                    <li>
-                                        <p>Total CAPACITY</p>
-                                        <span>250</span>
-                                        <a class="book_now_btn stay_booknow " href="contact.html" target="_blank" style="font-size: 16px;">Book
-                                            Now</a>
-                                    </li>
-                                    <li>
-                                        <p>Seating CAPACITY</p>
-                                        <span>250</span>
-                                        <a class="book_now_btn stay_booknow" href="gallery.html" target="_blank" style="font-size: 16px;">View
-                                            Gallery</a>
-                                    </li>
-                                </ul>
-
-                            </div>
-
-
-                        </div>
-                    </div>
-
-
-                </div>
-
-            </div>
-        </div>
-
-        <div class="container-fluid" style="margin-top: 30px;">
-            <div class="row">
-                <div class="col-lg-6 co-md-6 col-sm-12 col-xs-12 no-padding">
-                    <div class="stay_right_box flower_bg left_bg right_flowerbg">
-                        <div class="bottom_align2">
-                            <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".5s" style="font-size: 16px;    ">Sprawling over an area of 1500 sqft this grand space can accommodate up to 75 guests. Its grand interiors make this hall a suitable location to host small intimate gatherings, corporate and social affairs can be easily held
-                                here.
-                            </p>
-
-                            <ul class="facility_list clearfix">
-                                <li><img src="img/icons/01.png" /><span>AC</span></li>
-                                <li><img src="img/icons/02.png" /><span>PARKING</span></li>
-                                <li><img src="img/icons/stage01.png" /><span>STAGE</span></li>
-                                <li><img src="img/icons/wifi01.png" /><span>WIFI</span></li>
-                                <!-- <li><img src="img/icons/03.png" /><span>ROOMS</span></li> -->
-                            </ul>
-                            <div class="capacity-box clearfix">
-                                <ul>
-                                    <li>
-                                        <p>Total CAPACITY</p>
-                                        <span> 75</span>
-                                        <a class="book_now_btn stay_booknow " href="contact.html" target="_blank" style="font-size: 16px;">Book
-                                            Now</a>
-                                    </li>
-                                    <li>
-                                        <p>Seating CAPACITY</p>
-                                        <span> 75</span>
-                                        <a class="book_now_btn stay_booknow" href="gallery.html" target="_blank" style="font-size: 16px;">View
-                                            Gallery</a>
-                                    </li>
-                                </ul>
-
-                            </div>
-
-
-                        </div>
-                    </div>
-
-
-                </div>
-                <div class="col-lg-6 co-md-6 col-sm-12 col-xs-12 no-padding">
-                    <div class="stay_left_box">
-                        <div class="stay_heading stay_space wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".5s">
-                            <h2 class="ban-heading">Sanskara Hall 1,500 sq. ft.</h2>
-                            <p>
-
-                            </p>
-                        </div>
-                        <div class="container-fluid">
-
-                            <div id="demo2" class="carousel slide" data-ride="carousel" loop="" data-interval="4000">
-
-                                <!-- Indicators -->
-                                <ul class="carousel-indicators">
-                                    <li data-target="#demo2" data-slide-to="0" class=""></li>
-                                    <li data-target="#demo2" data-slide-to="1" class="active"></li>
-
-                                </ul>
-
-                                <!-- The slideshow -->
-                                <div class="row">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item">
-                                            <div class="col-md-12 col-xs-12 myImage" style="background-image: linear-gradient(rgba(0,0,0,.01),rgba(0,0,0,.7)),url('img/Banquet-Hall-Images//`1.jpg');">
-
-                                                <div class="col-md-12 col-xs-12 carousel-content">
-
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="carousel-item">
-                                            <div class="col-md-12 col-xs-12 myImage" style="background-image: url(img/Banquet-Hall-Images/\'2.jpg);">
-
-                                            </div>
-
-                                        </div>
-
-                                        <div class="carousel-item active">
-                                            <div class="col-md-12 col-xs-12 myImage" style="background-image: url(img/Banquet-Hall-Images/6.jpg);">
-
-                                            </div>
-
-                                        </div>
-
-                                        <div class="carousel-item">
-                                            <div class="col-md-12 col-xs-12 myImage" style="background-image: url(img/Banquet-Hall-Images/7.jpg);"></div>
-                                        </div>
-
-                                        <div class="carousel-item">
-                                            <div class="col-md-12 col-xs-12 myImage" style="background-image: url(img/Banquet-Hall-Images/8.jpg);"></div>
-                                        </div>
-
-
-                                        <!-- Left and right controls -->
-                                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                                            <span class="carousel-control"><img src="images/ar2.png" class="img-fluid"></span>
-                                        </a>
-                                        <a class="carousel-control-next" href="#demo" data-slide="next">
-                                            <span class="carousel-control"><img src="images/ar1.png" class="img-fluid"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6 co-md-6 col-sm-12 col-xs-12 no-padding">
-                    <div class="stay_left_box">
-                        <div class="stay_heading stay_space wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".5s">
-                            <h2 class="ban-heading">Shayari</h2>
-                            <p>
-
-                            </p>
-                        </div>
-                        <div class="container-fluid">
-
-                            <div id="demo3" class="carousel slide" data-ride="carousel" loop="" data-interval="4000">
-
-                                <!-- Indicators -->
-                                <ul class="carousel-indicators">
-                                    <li data-target="#demo3" data-slide-to="0" class="active"></li>
-                                    <li data-target="#demo3" data-slide-to="1" class=""></li>
-                                    <li data-target="#demo3" data-slide-to="2" class=""></li>
-                                    <li data-target="#demo3" data-slide-to="3" class=""></li>
-                                    <li data-target="#demo3" data-slide-to="4" class=""></li>
-                                </ul>
-
-                                <!-- The slideshow -->
-                                <div class="row">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item">
-                                            <div class="col-md-12 col-xs-12 myImage" style="background-image: linear-gradient(rgba(0,0,0,.01),rgba(0,0,0,.7)),url('img/Restaurant-SHAYARI-Images/Shayari\ 1.jpeg');">
-
-                                                <div class="col-md-12 col-xs-12 carousel-content">
-
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="carousel-item">
-                                            <div class="col-md-12 col-xs-12 myImage" style="background-image: url(img/Restaurant-SHAYARI-Images/Shayari\ 2.jpeg);">
-
-                                            </div>
-
-                                        </div>
-
-                                        <div class="carousel-item">
-                                            <div class="col-md-12 col-xs-12 myImage" style="background-image: url(img/Restaurant-SHAYARI-Images/Shayari\ 3.jpeg);">
-
-                                            </div>
-
-                                        </div>
-
-                                        <div class="carousel-item">
-                                            <div class="col-md-12 col-xs-12 myImage" style="background-image: url(img/Restaurant-SHAYARI-Images/Shayari\ 5.jpeg);"></div>
-                                        </div>
-
-                                        <div class="carousel-item active">
-                                            <div class="col-md-12 col-xs-12 myImage" style="background-image: url(img/Restaurant-SHAYARI-Images/Shayari\ 6.jpeg);"></div>
-                                        </div>
-
-
-                                        <!-- Left and right controls -->
-                                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                                            <span class="carousel-control"><img src="images/ar2.png" class="img-fluid"></span>
-                                        </a>
-                                        <a class="carousel-control-next" href="#demo" data-slide="next">
-                                            <span class="carousel-control"><img src="images/ar1.png" class="img-fluid"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="room_img_slider">
-
-                            <div id="myCarousel_slider1" class="carousel slide" data-ride="carousel">
-
-                                <ol class="carousel-indicators">
-                                    <li data-target="#myCarousel_slider1" data-slide-to="0" class="active"></li>
-                                    <li data-target="#myCarousel_slider1" data-slide-to="1" class="active"></li>
-                                    <li data-target="#myCarousel_slider1" data-slide-to="2" class="active"></li>
-                                    <li data-target="#myCarousel_slider1" data-slide-to="3" class="active"></li>
-                                    <li data-target="#myCarousel_slider1" data-slide-to="4" class="active"></li>
-
-
-                                </ol>
-
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="item active">
-                                        <div class="effect_inner room_inner_effect wow beffect" data-wow-delay=".5s" data-wow-duration="1s">
-                                            <img src="img/Banquet-Hall-Images/'3.jpg" />
-                                        </div>
-                                    </div>
-
-                                    <div class="item">
-                                        <img src="img/Banquet-Hall-Images/;4.jpg" />
-
-                                    </div>
-
-                                    <div class="item">
-                                        <img src="img/Banquet-Hall-Images/5.jpg" />
-
-                                    </div>
-
-                                    <div class="item">
-                                        <img src="img/Banquet-Hall-Images/6.jpg" />
-
-                                    </div>
-
-                                    <div class="item">
-                                        <img src="img/Banquet-Hall-Images/7.jpg" />
-
-                                    </div>
-
-
-
-                                </div>
-
-
-                            </div>
-
-                        </div> -->
-                    </div>
-                </div>
-
-                <div class="col-lg-6 co-md-6 col-sm-12 col-xs-12 no-padding">
-                    <div class="stay_right_box flower_bg left_bg right_flowerbg">
-                        <div class="bottom_align">
-                            <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".5s" style="font-size: 16px;">Featuring an area of 200 sqft this spacious hall can easily accommodate up to 10-15 guests, adjoining-Fine dine room. This venue is well suited to host corporate meetings, Birthday Celebrations, and many more.
-                            </p>
-
-                            <ul class="facility_list clearfix">
-                                <li><img src="img/icons/01.png"><span>AC</span></li>
-                                <li><img src="img/icons/02.png"><span>PARKING</span></li>
-                                <li><img src="img/icons/stage01.png"><span>STAGE</span></li>
-                                <li><img src="img/icons/wifi01.png"><span>WIFI</span></li>
-                                <!-- <li><img src="img/icons/03.png"><span>ROOMS</span></li> -->
-                            </ul>
-                            <div class="capacity-box clearfix">
-                                <ul>
-                                    <li>
-                                        <p>Total CAPACITY</p>
-                                        <span>15</span>
-                                        <a class="book_now_btn stay_booknow " href="contact.html" target="_blank" style="font-size: 16px;">Book
-                                            Now</a>
-                                    </li>
-                                    <li>
-                                        <p>Seating CAPACITY</p>
-                                        <span>15</span>
-                                        <a class="book_now_btn stay_booknow" href="gallery.html" target="_blank" style="font-size: 16px;">View
-                                            Gallery</a>
-                                    </li>
-                                </ul>
-
-                            </div>
-
-
-                        </div>
-                    </div>
-
-
-                </div>
-
-            </div>
-        </div>
-
-
-
-
-
-    </section>
-
-
-
-
-
-    <!-- start -->
-    <!-- <section class="experience exp-container" style="color:#000;margin-bottom: 30px;">
-        <div class="container padding20 aos-init aos-animate" style="color:#000 !important;" data-aos="fade-up">
-            <div class="row padding10" style="text-align: center">
-                <div class="col-md-12">
-                </div>
-            </div>
-
-
-        </div>
-        <div class="container exp-container">
-            <div class="row text-center uppercase no-gutters" style="display: flex;
-            align-items: center;">
-                <div class="col-md-6 aos-init aos-animate" data-aos="fade-right">
-                    <div class="block">
-                        <a class="hover" href="contact.html">
-                            <div class="img-container">
-                                <img src="img/Banquet-Hall-Images/Sanskara Hall 1.jpg" style="width: 100%" alt="Best Resorts in Pawna">
-                            </div>
-                            <h1 class="padding15 expo" style="color: #F58D21;">Sanskara Hall</h1>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <a href="index.html">
+                            <li>HOME</li>
                         </a>
-                    </div>
-                </div>
-
-                <div class="col-md-6 aos-init aos-animate" data-aos="fade-left">
-                    <div class="block">
-                        <p style="font-weight: 500;font-size:20px;line-height: 1.5em;;color: #F58D21    ;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, corrupti inventore aut velit accusantium, iusto placeat exercitationem porro labore culpa deleniti perferendis fugit maiores atque ipsum voluptas excepturi qui et!<br></p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <section class="experience exp-container" style="color:#000;margin-bottom: 30px;">
-        <div class="container padding20 aos-init aos-animate" style="color:#000 !important;" data-aos="fade-up">
-            <div class="row padding10" style="text-align: center">
-                <div class="col-md-12">
-                </div>
-            </div>
-
-
-        </div>
-        <div class="container exp-container">
-            <div class="row text-center uppercase no-gutters" style="display: flex;
-            align-items: center;">
-                <div class="col-md-6 aos-init aos-animate" data-aos="fade-right">
-                    <div class="block">
-                        <p style="font-weight: 500;font-size:20px;line-height: 1.5em;color: #F58D21    ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, iste! Quae, aliquam doloremque est vero ea eius dignissimos maxime labore eum nesciunt soluta recusandae suscipit error facere ipsum vitae quasi?<br></p>
-
-                    </div>
-
-                </div>
-
-                <div class="col-md-6 aos-init aos-animate" data-aos="fade-left">
-                    <div class="block">
-                        <a class="hover" href="contact.html">
-                            <div class="img-container">
-                                <img src="img/Banquet-Hall-Images/Parampara Hall 7.jpg" style="width: 100%" alt="Best Resorts in Pawna">
-                            </div>
-                            <h1 class="padding15 expo" style="color: #F58D21;">Parampara Hall</h1>
+                        <a href="about.html">
+                            <li>ABOUT US</li>
                         </a>
-                    </div>
+                        <a href="rooms&suites.html">
+                            <li>SUITES & ROOMS</li>
+                        </a>
+                        <a href="banquets.html">
+                            <li>BANQUETS</li>
+                        </a>
+                        <a href="offers.html">
+                            <li>OFFERS</li>
+                        </a>
+                        <a href="contact.html">
+                            <li>CONTACT US</li>
+                        </a>
+                    </ul>
                 </div>
-            </div>
-        </div>
-
-    </section> -->
-
-    <!-- *********************   Map location start  **************************** -->
-
-    <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14890.176948165701!2d80.9940809!3d21.0908579!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2aee515b224851aa!2sHotel%20Amora!5e0!3m2!1sen!2sin!4v1645268651769!5m2!1sen!2sin" class="map" style="border:0;"
-            allowfullscreen="" loading="lazy"></iframe>
-    </div>
-
-
-
-    <!-- *************************  Footer start  **************************** -->
-
-    <footer>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-12 footer-start">
-                <img src="img/logo2-trans.png" class="footer-logo" alt="logo">
-                <p class="para">Amora comes to you from experiences deep within our hearts – And it’s all for you, the way you like it. </p>
-
-                <!-- </div> -->
-            </div>
-            <div class="col-lg-3 col-md-6 col-12">
-                <h4>Useful Links</h4>
-                <ul>
-                    <a href="index.html">
-                        <li>HOME</li>
-                    </a>
-                    <a href="about.html">
-                        <li>ABOUT US</li>
-                    </a>
-                    <a href="rooms&suites.html">
-                        <li>SUITES & ROOMS</li>
-                    </a>
-                    <a href="banquets.html">
-                        <li>BANQUETS</li>
-                    </a>
-                    <a href="offers.html">
-                        <li>OFFERS</li>
-                    </a>
-                    <a href="contact.html">
-                        <li>CONTACT US</li>
-                    </a>
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12">
-                <h4>Contact Us</h4>
-                <ul>
-                    <a href="mailto: amorahotelsrjn@gmail.com">
-                        <li>amorahotelsrjn@gmail.com</li>
-                    </a>
-                    <!-- <a href="tel: 9970456783 ">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <a href="mailto: amorahotelsrjn@gmail.com">
+                            <li>amorahotelsrjn@gmail.com</li>
+                        </a>
+                        <!-- <a href="tel: 9970456783 ">
                     <li>9970456783 </li>
                 </a> -->
-                    <a href="tel: 7024575555 ">
-                        <li>7024575555 </li>
-                    </a>
-                    <li class="pt-3">Hotel Amora, Village Revadih, Opposite Neeraj Public School, Rajnandgaon, Chhattisgarh 491441</li>
-                </ul>
-            </div>
-            <div class="col-lg-2 col-md-6 col-12">
-                <h4>Follow us</h4>
+                        <a href="tel: 7024575555 ">
+                            <li>7024575555 </li>
+                        </a>
+                        <li class="pt-3">Hotel Amora, Village Revadih, Opposite Neeraj Public School, Rajnandgaon,
+                            Chhattisgarh 491441</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-12">
+                    <h4>Follow us</h4>
 
-                <div class="social-icon">
-                    <a href="https://www.instagram.com/hotelamora/"><i class="fa fa-instagram"></i></a>
-                    <a href=" https://www.facebook.com/HotelAmora-104203062199475/"><i class="fa fa-facebook-square"></i></a>
-                    <a href="https://wa.me/+917024575555"><i class="fa fa-whatsapp"></i></a>
+                    <div class="social-icon">
+                        <a href="https://www.instagram.com/hotelamora/"><i class="fa fa-instagram"></i></a>
+                        <a href=" https://www.facebook.com/HotelAmora-104203062199475/"><i
+                                class="fa fa-facebook-square"></i></a>
+                        <a href="https://wa.me/+917024575555"><i class="fa fa-whatsapp"></i></a>
+                    </div>
                 </div>
             </div>
+
+            <hr>
+
+            <div class="footer-bottom">
+                <h6>© 2021 Hotel Amora. &nbsp; Developed by <span><a href="http://hospitalityminds.com/"
+                            target="_blank">hospitalityminds</a></span></h6>
+            </div>
+        </footer>
+        <!-- ******  Footer end  ******** -->
+        <div class="social-float">
+            <div class="social-float-flex">
+
+                <a href="https://www.instagram.com/hotelamora/" target="_blank" title=" Instagram">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href=" https://www.facebook.com/HotelAmora-104203062199475/" target="_blank" title=" Facebook">
+                    <i class="fa fa-facebook-square"></i>
+                </a>
+                <a href="https://wa.me/+917024575555" title=" Phone">
+                    <i class="fa fa-phone-square"></i>
+                </a>
+            </div>
         </div>
 
-        <hr>
-
-        <div class="footer-bottom">
-            <h6>© 2021 Hotel Amora. &nbsp; Developed by <span><a href="http://hospitalityminds.com/" target="_blank">hospitalityminds</a></span></h6>
-        </div>
-    </footer>
-    <!-- ******  Footer end  ******** -->
-    <div class="social-float">
-        <div class="social-float-flex">
-
-            <a href="https://www.instagram.com/hotelamora/" target="_blank" title=" Instagram">
-                <i class="fa fa-instagram"></i>
-            </a>
-            <a href=" https://www.facebook.com/HotelAmora-104203062199475/" target="_blank" title=" Facebook">
-                <i class="fa fa-facebook-square"></i>
-            </a>
-            <a href="https://wa.me/+917024575555" title=" Phone">
-                <i class="fa fa-phone-square"></i>
+        <div class="scrolltop float-right">
+            <a class="floating-btn" id="audio-btn"
+                href="https://wa.me/+917024575555?text=Pls%20whatsapp%20dates%20and%20number%20of%20people%20and%20we%20will%20revert%20to%20you%20immediately.">
+                <i class="fa fa-whatsapp" id="mybtn"></i>
             </a>
         </div>
-    </div>
+        <div class="scrolltop float-right">
+            <a href="https://maps.app.goo.gl/6u49ti1P8eEYzmZ66" target="_blank">
+                <i class="fa-thin fa-360-degrees" id="mybtn2" style="font-size: 12px;">360<span>°</span> View</i>
+            </a>
+        </div>
+        <script src="stylesheet.html" href="js/bootstrap.js"></script>
+        <link href="css/aos.css" rel="stylesheet">
+        <script src="css/aos.js"></script>
 
-    <div class="scrolltop float-right">
-        <a class="floating-btn" id="audio-btn" href="https://wa.me/+917024575555?text=Pls%20whatsapp%20dates%20and%20number%20of%20people%20and%20we%20will%20revert%20to%20you%20immediately.">
-            <i class="fa fa-whatsapp" id="mybtn"></i>
-        </a>
-    </div>
-    <div class="scrolltop float-right">
-        <a href="https://maps.app.goo.gl/6u49ti1P8eEYzmZ66" target="_blank">
-            <i class="fa-thin fa-360-degrees" id="mybtn2" style="font-size: 12px;">360<span>°</span> View</i>
-        </a>
-    </div>
-    <script src="stylesheet.html" href="js/bootstrap.js"></script>
-    <link href="css/aos.css" rel="stylesheet">
-    <script src="css/aos.js"></script>
-
-    <script src="assets/jquery.min.js"></script>
-    <script src="assets/popper.min.js"></script>
-    <script src="assets/bootstrap.min.js"></script>
-    <script src="assets/mauGallery.min.js"></script>
-    <script src="assets/scripts.js"></script>
-    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
-    <script src="js/aos.js"></script>
+        <script src="assets/jquery.min.js"></script>
+        <script src="assets/popper.min.js"></script>
+        <script src="assets/bootstrap.min.js"></script>
+        <script src="assets/mauGallery.min.js"></script>
+        <script src="assets/scripts.js"></script>
+        <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+        <script src="js/aos.js"></script>
 </body>
 
 </html>
