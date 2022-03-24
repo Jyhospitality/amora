@@ -281,7 +281,7 @@ a:hover {
 }
 
 .abtitle {
-    font-family: fantasy;
+    font-family: fantasy !important;
     /* font-family: 'Trajan Pro'; */
     font-size: 45px;
     font-weight: 500;
