@@ -273,7 +273,7 @@ a:hover {
 }
 
 .abheading {
-    font-family: 'Trajan Pro';
+    font-family: fantasy;
     font-size: 23px;
     padding-top: 85px;
     margin-bottom: 0;
@@ -281,7 +281,7 @@ a:hover {
 }
 
 .abtitle {
-    font-family: 'Trajan Pro';
+    font-family: fantasy;
     /* font-family: 'Trajan Pro'; */
     font-size: 45px;
     font-weight: 500;
@@ -360,7 +360,7 @@ a:hover {
 }
 
 .amenheading {
-    font-family: 'Trajan Pro';
+    font-family: fantasy;
     color: #fff;
     padding-top: 50px;
     position: relative;
@@ -510,7 +510,7 @@ a:hover {
 }
 
 .galleryheading {
-    font-family: 'Trajan Pro';
+    font-family: fantasy;
     margin-top: 50px;
     margin-bottom: 35px;
 }
@@ -787,9 +787,11 @@ a:hover {
     background-position: center;
     height: 300px;
 }
-
+.fan-font{
+    font-family: fantasy;
+}
 .aboutheading {
-    font-family: 'Trajan Pro';
+    font-family: fantasy;
     font-size: 50px;
     color: #fff;
     padding-top: 10%;
@@ -2778,7 +2780,7 @@ ul.sitelinks li {
     color: var(--bold-color);
     font-weight: 600;
     /*font-family: 'Trajan Pro';!important; */
-    font-family: 'Trajan Pro';
+    /* font-family: 'Trajan Pro'; */
     letter-spacing: 1px;
 }
 
@@ -4159,8 +4161,8 @@ li {
 }
 
 .ban-heading {
-    color: #000;
-    font-family: 'Trajan Pro';
+    color:#f28d3c;
+    /* font-family: 'Trajan Pro'; */
     /* background-color: #fd7e14;
     color: #fff; */
     font-size: 35px;
@@ -4966,7 +4968,7 @@ h3 {
   color: #fff;
   font-size: 25px;
   padding: 10px 0;
-  background: #a12664;
+  background: #f58d20;
 }
 .requestwizard-modal {
   background: rgba(255, 255, 255, 0.8);
@@ -5052,12 +5054,12 @@ h3 {
   font-size: 13px !important;
 }
 footer {
-  border-top: 1px solid #a12664;
+  border-top: 1px solid #f58d20;
 }
 .feedback {
   z-index: 99;
   position: fixed;
-  background: #a12664 !important;
+  background: #f58d20 !important;
   top: 50%;
   border: none;
   color: #fff !important;
@@ -5065,17 +5067,17 @@ footer {
   transform: rotate(-90deg);
 }
 .modal-header {
-  background: #a12664;
+  background: #f58d20;
   border-radius: 0;
 }
 .modal-content {
-    border: 3px solid #a12664;
+    border: 3px solid #f58d20;
     border-radius: 0;
 }
 .close {
   padding: 5px !important;
   margin: 0 !important;
-  background: #c2357c !important;
+  background: #f58d20!important;
   text-shadow: none;
   opacity: 1;
   color: #fff;
@@ -5096,7 +5098,7 @@ h1 {
 }
 .h4,
 h4 {
-  color: #a12664;
+  color: #f58d20;
   font-size: 23px;
 }
 .h2,
@@ -5303,17 +5305,17 @@ select {
   font-size: 0.5em;
 }
 .custom-search {
-  background-color: #a12664;
+  background-color: #f58d20;
   padding: 10px;
 }
 option {
-  color: #a12664;
+  color: #f58d20;
 }
 select {
   border-radius: 0 !important;
 }
 .navbar-collapse .collapse .show {
-  background: #a12664;
+  background: #f58d20;
 }
 a:focus,
 a:hover {
@@ -5333,7 +5335,7 @@ a:hover {
 .dine-time,
 .form-group p,
 .setup-content h1 {
-  color: #a12664;
+  color: #f58d20;
 }
 .modal-body {
   padding: 30px;
@@ -5386,10 +5388,10 @@ label > input[type="radio"] + img {
   border: 3px solid transparent;
 }
 label > input[type="radio"]:checked + img {
-  border: 3px solid #a12664;
+  border: 3px solid #f58d20;
 }
 .fm-btn {
-  background: #a12664;
+  background: #f58d20;
   border: none;
   border-radius: 0;
   margin: 0 10px;
@@ -5398,7 +5400,7 @@ label > input[type="radio"]:checked + img {
 .fm-btn:focus,
 .fm-btn:hover {
   opacity: 0.9;
-  background: #a12664 !important;
+  background: #f58d20 !important;
 }
 
 
