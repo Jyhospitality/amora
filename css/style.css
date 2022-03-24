@@ -2,7 +2,7 @@
 html,
 body {
     width: 100%;
-    font-family: fantasy !important;
+    font-family: 'Trajan Pro'!important;
     overflow-x: hidden!important;
 }
 
@@ -273,7 +273,7 @@ a:hover {
 }
 
 .abheading {
-    font-family: fantasy;
+     font-family: 'Trajan Pro';
     font-size: 23px;
     padding-top: 85px;
     margin-bottom: 0;
@@ -281,7 +281,7 @@ a:hover {
 }
 
 .abtitle {
-    font-family: fantasy !important;
+    font-family: 'Trajan Pro';
     /* font-family: 'Trajan Pro'; */
     font-size: 45px;
     font-weight: 500;
@@ -360,7 +360,7 @@ a:hover {
 }
 
 .amenheading {
-    font-family: fantasy;
+    font-family: 'Trajan Pro';
     color: #fff;
     padding-top: 50px;
     position: relative;
@@ -510,7 +510,7 @@ a:hover {
 }
 
 .galleryheading {
-    font-family: fantasy;
+    font-family: 'Trajan Pro';
     margin-top: 50px;
     margin-bottom: 35px;
 }
@@ -789,10 +789,10 @@ a:hover {
     height: 300px;
 }
 .fan-font{
-    font-family: fantasy;
+    font-family: 'Trajan Pro';
 }
 .aboutheading {
-    font-family: fantasy;
+    font-family: 'Trajan Pro';
     font-size: 50px;
     color: #fff;
     padding-top: 10%;
